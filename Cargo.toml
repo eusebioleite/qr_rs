@@ -3,6 +3,12 @@ name = "qr_rs"
 version = "1.1.0"
 edition = "2024"
 
+[profile.release]
+lto = true
+codegen-units = 1
+panic = 'abort'
+strip = true
+
 [dependencies]
 arboard = "3.6.1"
 iced = "0.14.0"
