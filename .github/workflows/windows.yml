@@ -23,4 +23,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-binary
-          path: target/release/qr_rs.exe
+          path: ./target/release/qr_rs.exe
