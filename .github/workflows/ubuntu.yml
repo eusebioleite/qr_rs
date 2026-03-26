@@ -23,4 +23,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: ubuntu-binary
-        path: target/release/qr_rs
+        path: ./target/release/qr_rs
